@@ -39,7 +39,9 @@ class App extends Component {
 
     this.setState({NIF: unNIFescrito}, () => {
 
-      console.log('Longitud: ' + this.state.NIF.length);
+      /*Forma de actualizar la letra*/
+      console.log('Longitud: ', this.state.NIF.length);
+
       if (this.state.NIF.length === 8) {
         let letraCalculada = calculaLetraNIF(unNIFescrito);
         this.actualizaLetraNIF(letraCalculada);
