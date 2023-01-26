@@ -23,7 +23,7 @@ npm install react-native-screens react-native-safe-area-context
         yarn add react-native-vector-icons
     3. Abre el Proyecto en Visual Studio Code y edita el fichero /android/app/build.gradle, 
        añadiendo esta línea dentro del fichero:
-        apply from: "../../node_modules/react-native-vector-icons/fonts.gradle
+        apply from: "../../node_modules/react-native-vector-icons/fonts.gradle"
     *  From v5 there is a need to install react-native-safe-area-context for handling safe area.
         yarn add react-native-safe-area-context
 

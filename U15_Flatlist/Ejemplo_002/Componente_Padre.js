@@ -15,9 +15,9 @@ import {
   FlatList,
   ScrollView,
 } from 'react-native';
-import {ElementoLista} from './U15_Flatlist/Ejemplo_002/Components/ElementoLista';
-import {SeparadorLista} from './U15_Flatlist/Ejemplo_002/Components/SeparadorLista';
-import {DetalleElementoSeleccionado} from './U15_Flatlist/Ejemplo_002/Components/DetalleElementoSeleccionado';
+import {ElementoLista} from './components/ElementoLista';
+import {SeparadorLista} from './Components/SeparadorLista.js';
+import {DetalleElementoSeleccionado} from './components/DetalleElementoSeleccionado';
 
 export class App extends Component {
   constructor(props) {

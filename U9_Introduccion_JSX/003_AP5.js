@@ -96,11 +96,11 @@ const elementos = () => {
 class App extends Component {
   render() {
     return (
-      <View>
+      <ScrollView>
         <View>{datos()}</View>
         {isAdmin == true && <View>{boton()}</View>}
         <View>{elementos()}</View>
-      </View>
+      </ScrollView>
     );
   }
 }
@@ -150,9 +150,11 @@ const styles = StyleSheet.create({
   },
   modulos: {
     backgroundColor: '#F48FB1',
+    height: 80,
   },
   modulos2: {
     backgroundColor: '#F8BBD0',
+    height: 80,
   },
 });
 
